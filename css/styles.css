@@ -1,0 +1,72 @@
+:root{
+    --color-green: #339952;
+    --color-pink: #dc143c;
+    --font-body: 'Roboto', sans-serif;
+
+}
+
+body{
+    font-family: var(--font-body);
+}
+
+.text-green{
+    color: var(--color-green);
+}
+
+.position-icon{
+    position: relative;
+    top: 2px;
+}
+
+.logo_menu{
+    font-size: 27px;
+    color: var(--color-green);
+    font-weight: 800;
+}
+
+.nav-link{
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    color: var(--color-green);
+}
+
+.navbar-toggler{
+    box-shadow: none !important;
+
+}
+
+.btn-sanduiche{
+    color: var(--color-green);
+    
+}
+
+
+.moedas{
+    height: 200px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel-inner img {
+    height: auto; /* Permite que a altura se ajuste proporcionalmente */
+    max-height: 500px; /* Ajuste o valor para a altura desejada */
+    width: 100%; /* Garante que a largura preencha todo o espaço do carrossel */
+    object-fit: cover; /* Preenche o espaço sem distorcer a imagem */
+}
+
+
+.section-hidden {
+    display: none;
+}
+
+.section-active {
+    display: block;
+}
+
+.consumo{
+    height: 1000px;
+}
